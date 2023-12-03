@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    min-height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 2px 5px skyblue;
+    margin: 45px auto 10px auto;
+    text-decoration: underline;
+}
+
+.puppyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singlePuppyDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.puppyImageDiv {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+img {
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.singlePuppyInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.puppyYeah {
+    border: 3px solid black;
+    padding: 30px 5px 30px 5px;
+    margin: 10px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(194, 234, 238);    
+}
+
+.puppyYeah:link {color: black}
+.puppyYeah:visited {color: black}
+.puppyYeah:hover {background-color: rgb(108, 163, 185)}
+
+.backButton {
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 75%;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.backButtonLink {
+    text-decoration: none;
+}
